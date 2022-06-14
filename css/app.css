@@ -26,13 +26,14 @@ main{
     margin-right: 120px;
 }
 
-#div-main-top{
+#div-top{
     background-color: white;
     padding: 15px;
     border-bottom: 1px solid white;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    margin-bottom: 0.1px;
+    vertical-align: top;
+    border-bottom: 0px;
 }
 
 #add-task{
@@ -59,6 +60,9 @@ main{
     margin-left: 5px;
 }
 
-#div-main-content{
+#div-content{
+    vertical-align: top;
+    background-color: white;
+    font-size: 18px;
     
 }
