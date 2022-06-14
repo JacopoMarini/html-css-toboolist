@@ -65,6 +65,8 @@ main{
     background-color: white;
     font-size: 18px;
     font-family: helvetica;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .lista{
