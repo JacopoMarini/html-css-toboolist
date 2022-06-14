@@ -3,11 +3,10 @@ body{
     margin: 0px;
 }
 
-.header-div{
+.div-header{
     background-color: white;
     width: 100%;
     border: 1px solid white;
-    box-sizing: border-box;
     margin: 0px;
     
 }
@@ -22,5 +21,44 @@ body{
 }
 
 main{
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#div-main-top{
+    background-color: white;
+    padding: 15px;
+    border-bottom: 1px solid white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 0.1px;
+}
+
+#add-task{
+    color: white;
+    background-color: dodgerblue;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 7px;
+    text-align: center;
+    border: 1px solid dodgerblue;
+    margin-left: 50px;
+
+}
+
+#add-section{
+    display: inline-block;
+    color: silver;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 7px;
+    text-align: center;
+    border: 1px solid silver;
+    margin-left: 5px;
+}
+
+#div-main-content{
     
 }
