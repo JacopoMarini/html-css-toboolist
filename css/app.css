@@ -1,3 +1,26 @@
+body{
+    background-color: lightgrey;
+    margin: 0px;
+}
+
 .header-div{
+    background-color: white;
+    width: 100%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+
+.titolo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo-img{
+    vertical-align: middle;
+}
+
+main{
     
 }
