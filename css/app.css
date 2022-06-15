@@ -87,17 +87,27 @@ main{
     font-weight: 400;
 }
 
-.circle {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        font-size: 11px;
-        text-align: center;
-        display: inline;
-        vertical-align: middle;
-        line-height: 20px;
+.icon {
+    border-width: 1px;
+    border-style: solid;
+    border-color: currentColor;
+    border-radius: 50%;
+    display: inline-block;
+    width: 18px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 12px;
 }
- ul{
+
+.icon-check{
+    color: greenyellow;
+}
+
+.icon-cross{
+    color: red;
+}
+
+ul{
     list-style-type: none;
     padding-top: 30px;
  }
@@ -142,12 +152,6 @@ main{
     color: white;
  }
 
- .circle-red{
-    border: 2px solid red;
-    color: red;
-    text-align: center;
- }
-
  .website{
     background-color: rgb(226, 108, 226);
     display: inline;
@@ -166,12 +170,6 @@ main{
     padding: 5px;
     font-size: 12px;
     color: white;
- }
-
- .circle-green{
-    border: 2px solid rgb(99, 185, 99);
-    color: rgb(99, 185, 99);
-    text-align: center;
  }
 
 
