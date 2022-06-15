@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: lightgrey;
     margin: 0px;
@@ -84,10 +88,8 @@ main{
         height: 30px;
         border-radius: 50%;
         font-size: 11px;
-        border: 2px solid rgb(99, 185, 99);
         text-align: center;
         display: inline;
-        color: rgb(99, 185, 99);
         vertical-align: middle;
         line-height: 30px;
 }
@@ -137,16 +139,8 @@ main{
  }
 
  .circle-red{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    font-size: 11px;
     border: 2px solid red;
-    text-align: center;
-    display: inline;
     color: red;
-    vertical-align: middle;
-    line-height: 30px;
  }
 
  .website{
@@ -168,3 +162,9 @@ main{
     font-size: 12px;
     color: white;
  }
+
+ .circle-green{
+    border: 2px solid rgb(99, 185, 99);
+    color: rgb(99, 185, 99);
+ }
+
