@@ -78,6 +78,7 @@ main{
 .lista{
     display: block;
     margin-top: 1px;
+    padding-left: 70px;
 }
 
 .title{
